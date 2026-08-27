@@ -1,3 +1,17 @@
-# spotify-genre-classification
-`KNN vs Random Forest classifier on Spotify dataset with GridSearchCV tuning`
-Compared KNN vs Random Forest for music genre classification on Spotify dataset. RFC achieved 79% accuracy vs KNN's 29%. Includes GridSearchCV hyperparameter tuning.
+# Spotify Genre Classification
+
+Compared KNN and Random Forest on a Spotify dataset to classify music genres.
+
+## Results
+| Model | Accuracy |
+|-------|----------|
+| KNN (k=9) | 29% |
+| Random Forest | 79% |
+
+## What I did
+- Filtered 8 genres (turkish, rock, metal, folk, opera, etc.)
+- Compared KNN vs Random Forest baseline
+- Tuned RFC with GridSearchCV (10-fold CV, 300 estimators)
+
+## Stack
+Python, Pandas, Scikit-Learn
